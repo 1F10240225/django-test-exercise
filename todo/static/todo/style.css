@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', 'Noto Sans JP', Arial, sans-serif;
+    background: #f7fafc;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+h1 {
+    background: #39424e;
+    color: #fff;
+    padding: 24px 32px 16px 32px;
+    margin: 0 0 20px 0;
+    border-radius: 0 0 12px 12px;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+form {
+    background: #fff;
+    margin: 24px 40px 0 40px;
+    padding: 24px 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(60, 80, 120, 0.07);
+    max-width: 480px;
+}
+
+form div {
+    margin-bottom: 18px;
+}
+
+label {
+    font-weight: bold;
+    color: #3d4d69;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #c3c9d9;
+    margin-top: 4px;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #f1f3f7;
+}
+
+button {
+    background: linear-gradient(to right, #4666ff, #3cb8ff);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-size: 1.07rem;
+    cursor: pointer;
+    transition: background .2s;
+}
+button:hover {
+    background: linear-gradient(to right, #3cb8ff, #4666ff);
+}
+
+a {
+    color: #4666ff;
+    text-decoration: none;
+    transition: text-decoration .1s;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.text {
+    background: #fff;
+    margin: 24px 40px 0 40px;
+    padding: 18px 28px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(60, 80, 120, 0.05);
+    max-width: 480px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+@media (max-width: 600px) {
+    h1, form, .text {
+        margin: 16px 4vw;
+        padding: 18px 4vw;
+        max-width: 97%;
+    }
+}
